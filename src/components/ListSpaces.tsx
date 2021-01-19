@@ -1,4 +1,4 @@
-import { Grid, makeStyles, Paper } from '@material-ui/core';
+import { Button, Grid, makeStyles, Paper } from '@material-ui/core';
 import React, { useEffect, useState } from 'react';
 import { Space } from '../@types';
 import SpaceCard from './SpaceCard';
@@ -27,14 +27,46 @@ export const ListSpaces: React.FC = () => {
             { _id: '3', name: 'Condesa 2', city: 'CDMX', type: 'COWORKING' },
             { _id: '4', name: 'Condesa 1', city: 'CDMX', type: 'OFICINA' },
             { _id: '5', name: 'Minerva', city: 'Guadalajara', type: 'OFICINA' },
-            { _id: '6', name: 'Condesa 2', city: 'CDMX', type: 'COWORKING' }
+            { _id: '6', name: 'Condesa 2', city: 'CDMX', type: 'COWORKING' },
+            { _id: '11', name: 'Condesa 1', city: 'CDMX', type: 'OFICINA' },
+            { _id: '12', name: 'Minerva', city: 'Guadalajara', type: 'OFICINA' },
+            { _id: '13', name: 'Condesa 2', city: 'CDMX', type: 'COWORKING' },
+            { _id: '14', name: 'Condesa 1', city: 'CDMX', type: 'OFICINA' },
+            { _id: '15', name: 'Minerva', city: 'Guadalajara', type: 'OFICINA' },
+            { _id: '16', name: 'Condesa 2', city: 'CDMX', type: 'COWORKING' }
         ];
         setStateSpaces(spaces);
     }, []);
 
     return (
-        <div className={classes.root}>
-            <Grid container spacing={2}>
+        <React.Fragment>
+            <Button variant="contained">default</Button>
+            <Button variant="contained" color="primary">
+                Primary
+            </Button>
+            <Button variant="contained" color="secondary">
+                Secondary
+            </Button>
+            <Button variant="contained" disabled>
+                Disabled
+            </Button>
+
+            <Button variant="outlined">default</Button>
+            <Button variant="outlined" color="primary">
+                Primary
+            </Button>
+            <Button variant="outlined" color="secondary">
+                Secondary
+            </Button>
+            <Button variant="outlined" disabled>
+                Disabled
+            </Button>
+
+            <Button>default</Button>
+            <Button color="primary">Primary</Button>
+            <Button color="secondary">Secondary</Button>
+            <Button disabled>Disabled</Button>
+            <Grid container className={classes.root} spacing={2}>
                 <Grid item xs={12}>
                     <Grid container justify="center" spacing={2}>
                         {stateSpaces.map((space: Space) => (
@@ -45,7 +77,7 @@ export const ListSpaces: React.FC = () => {
                     </Grid>
                 </Grid>
             </Grid>
-        </div>
+        </React.Fragment>
     );
 };
 export default ListSpaces;

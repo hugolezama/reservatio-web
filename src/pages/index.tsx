@@ -1,8 +1,15 @@
+import { Button } from '@material-ui/core';
+import Link from 'next/link';
 import React from 'react';
-import ListSpaces from '../components/ListSpaces';
 
 export const index: React.FC = () => {
-    return <ListSpaces />;
+    return (
+        <div>
+            <Link href="/spaces">
+                <Button>Spaces</Button>
+            </Link>
+        </div>
+    );
 };
 
 export default index;
