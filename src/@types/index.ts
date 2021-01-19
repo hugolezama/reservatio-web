@@ -1,5 +1,6 @@
 export type Space = {
-  name: string
-  city: string
-  type: string
-}
+    _id: string;
+    name: string;
+    city: string;
+    type: string;
+};

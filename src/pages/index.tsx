@@ -1,8 +1,8 @@
-import React from 'react'
-import ListSpaces from '../components/ListSpaces'
+import React from 'react';
+import ListSpaces from '../components/ListSpaces';
 
-const Home: React.FC = () => {
-  return <ListSpaces />
-}
+export const index: React.FC = () => {
+    return <ListSpaces />;
+};
 
-export default Home
+export default index;
