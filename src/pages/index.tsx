@@ -1,14 +1,14 @@
-import { Button } from '@material-ui/core';
-import Link from 'next/link';
+import { Container } from '@material-ui/core';
 import React from 'react';
+import MainLayout from '../components/Layout';
 
 export const index: React.FC = () => {
     return (
-        <div>
-            <Link href="/spaces">
-                <Button>Spaces</Button>
-            </Link>
-        </div>
+        <Container>
+            <MainLayout>
+                <div></div>
+            </MainLayout>
+        </Container>
     );
 };
 

@@ -9,7 +9,7 @@ import MenuIcon from '@material-ui/icons/Menu';
 import AccountCircle from '@material-ui/icons/AccountCircle';
 import MailIcon from '@material-ui/icons/Mail';
 import NotificationsIcon from '@material-ui/icons/Notifications';
-import { Box, Button, Container } from '@material-ui/core';
+import { Box, Container } from '@material-ui/core';
 
 interface Props {
     children: React.ReactElement;
@@ -33,7 +33,7 @@ const useStyles = makeStyles((theme: Theme) =>
             marginRight: theme.spacing(2)
         },
         title: {
-            display: 'none',
+            // display: 'none',
             [theme.breakpoints.up('sm')]: {
                 display: 'block'
             }
@@ -50,7 +50,7 @@ const useStyles = makeStyles((theme: Theme) =>
     })
 );
 
-export default function PrimarySearchAppBar(props: Props) {
+export default function MainLayout(props: Props) {
     const classes = useStyles();
 
     return (
@@ -61,17 +61,9 @@ export default function PrimarySearchAppBar(props: Props) {
                         <IconButton edge="start" className={classes.menuButton} color="inherit" aria-label="open drawer">
                             <MenuIcon />
                         </IconButton>
-                        <Typography className={classes.title} variant="h6" noWrap>
-                            Material-UI
+                        <Typography className={classes.title} variant="h5" gutterBottom>
+                            Reservatio
                         </Typography>
-
-                        <Button variant="contained">default</Button>
-                        <Button variant="contained" color="primary">
-                            Primary
-                        </Button>
-                        <Button variant="contained" color="secondary">
-                            Secondary
-                        </Button>
 
                         <div className={classes.grow} />
                         <div className={classes.sectionDesktop}>

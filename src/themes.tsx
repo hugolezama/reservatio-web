@@ -1,20 +1,90 @@
-import { blue, deepOrange } from '@material-ui/core/colors';
 import red from '@material-ui/core/colors/red';
 import { createMuiTheme, darken, lighten } from '@material-ui/core/styles';
+
+const primaryColor = '#6BBAA7';
+const secondaryColor = '#FBA100';
+const defaultColor = '#86b3d1';
+const contrastTextColor = '#fff';
+
+const theme = createMuiTheme({
+    palette: {
+        primary: {
+            light: lighten(primaryColor, 0.2),
+            main: primaryColor,
+            dark: darken(primaryColor, 0.2),
+            contrastText: contrastTextColor
+        },
+        secondary: {
+            light: lighten(secondaryColor, 0.1),
+            main: secondaryColor,
+            dark: darken(secondaryColor, 0.1),
+            contrastText: contrastTextColor
+        },
+        error: {
+            main: red.A400
+        },
+
+        background: {
+            default: contrastTextColor
+        },
+        text: {
+            primary: darken(primaryColor, 0.5),
+            hint: darken(primaryColor, 0.1)
+        }
+    },
+    overrides: {
+        MuiButton: {
+            contained: {
+                backgroundColor: defaultColor,
+                color: contrastTextColor,
+                '&:hover': {
+                    backgroundColor: darken(defaultColor, 0.08)
+                }
+            },
+            outlined: {
+                borderColor: defaultColor,
+                color: darken(defaultColor, 0.1),
+                '&:hover': {
+                    backgroundColor: lighten(defaultColor, 0.95)
+                }
+            },
+            text: {
+                color: darken(defaultColor, 0.1),
+                '&:hover': {
+                    backgroundColor: lighten(defaultColor, 0.95)
+                }
+            }
+        }
+        // MuiOutlinedInput: {
+        //     root: {
+        //         '&:hover $notchedOutline': {
+        //             borderColor: primaryColor
+        //         }
+        //     },
+        //     input: {
+        //         color: darken(primaryColor, 0.5)
+        //     },
+        //     notchedOutline: {
+        //         borderColor: primaryColor,
+        //         color: primaryColor
+        //     }
+        // }
+    }
+});
 
 export const themeAlt = createMuiTheme({
     palette: {
         primary: {
-            light: lighten('#C7D8C6', 0.2),
-            main: '#C7D8C6',
-            dark: darken('#C7D8C6', 0.2),
-
-            contrastText: '#fff'
+            light: lighten('#C7D8C6', 0.1),
+            main: darken('#C7D8C6', 0.05),
+            dark: darken('#C7D8C6', 0.1),
+            contrastText: darken('#a9b7c0', 0.5)
         },
         secondary: {
-            light: lighten('#EFD9C1', 0.1),
+            light: lighten('#EFD9C1', 0.2),
             main: '#EFD9C1',
-            dark: darken('#EFD9C1', 0.1)
+            dark: darken('#EFD9C1', 0.1),
+            contrastText: darken('#a9b7c0', 0.5)
         },
         error: {
             main: red.A400
@@ -28,46 +98,42 @@ export const themeAlt = createMuiTheme({
         MuiButton: {
             contained: {
                 backgroundColor: '#F6F4E8',
+                color: darken('#a9b7c0', 0.5),
 
                 '&:hover': {
                     backgroundColor: darken('#F6F4E8', 0.08)
                 }
-            }
-        }
-    }
-});
+            },
 
-const theme = createMuiTheme({
-    palette: {
-        primary: {
-            light: lighten('#6BBAA7', 0.2),
-            main: '#6BBAA7',
-            dark: darken('#6BBAA7', 0.2),
+            outlined: {
+                color: darken('#F6F4E8', 0.7),
+                borderColor: darken('#F6F4E8', 0.7),
 
-            contrastText: '#fff'
-        },
-        secondary: {
-            light: lighten('#FBA100', 0.1),
-            main: '#FBA100',
-            dark: darken('#FBA100', 0.1),
-            contrastText: '#fff'
-        },
-        error: {
-            main: red.A400
-        },
-
-        background: {
-            default: '#fff'
-        }
-    },
-    overrides: {
-        MuiButton: {
-            contained: {
-                backgroundColor: '#86b3d1',
-                color: '#fff',
                 '&:hover': {
-                    backgroundColor: darken('#86b3d1', 0.08)
+                    backgroundColor: darken('#F6F4E8', 0.08)
                 }
+            },
+            outlinedPrimary: {
+                color: darken('#C7D8C6', 0.5),
+                borderColor: darken('#C7D8C6', 0.3),
+
+                '&:hover': {
+                    backgroundColor: lighten('#C7D8C6', 0.5),
+                    borderColor: darken('#C7D8C6', 0.3)
+                }
+            },
+
+            outlinedSecondary: {
+                color: darken('#EFD9C1', 0.3),
+                borderColor: darken('#EFD9C1', 0.1),
+
+                '&:hover': {
+                    backgroundColor: lighten('#EFD9C1', 0.5),
+                    borderColor: darken('#EFD9C1', 0.1)
+                }
+            },
+            text: {
+                color: darken('#a9b7c0', 0.5)
             }
         }
     }

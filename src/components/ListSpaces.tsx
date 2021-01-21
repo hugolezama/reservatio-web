@@ -1,4 +1,4 @@
-import { Button, Grid, makeStyles, Paper } from '@material-ui/core';
+import { Button, Grid, makeStyles, Paper, TextField } from '@material-ui/core';
 import React, { useEffect, useState } from 'react';
 import { Space } from '../@types';
 import SpaceCard from './SpaceCard';
@@ -50,7 +50,6 @@ export const ListSpaces: React.FC = () => {
             <Button variant="contained" disabled>
                 Disabled
             </Button>
-
             <Button variant="outlined">default</Button>
             <Button variant="outlined" color="primary">
                 Primary
@@ -61,11 +60,9 @@ export const ListSpaces: React.FC = () => {
             <Button variant="outlined" disabled>
                 Disabled
             </Button>
-
-            <Button>default</Button>
-            <Button color="primary">Primary</Button>
-            <Button color="secondary">Secondary</Button>
-            <Button disabled>Disabled</Button>
+            <br /> <br />
+            <TextField id="filled-basic" label="outlined" variant="outlined" color="primary" />
+            <br />
             <Grid container className={classes.root} spacing={2}>
                 <Grid item xs={12}>
                     <Grid container justify="center" spacing={2}>
