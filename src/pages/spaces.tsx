@@ -3,7 +3,7 @@ import React from 'react';
 import MainLayout from '../components/Layout';
 import ListSpaces from '../components/ListSpaces';
 
-export const spaces: React.FC = () => {
+export const Spaces: React.FC = () => {
     return (
         <Container>
             <MainLayout>
@@ -13,4 +13,4 @@ export const spaces: React.FC = () => {
     );
 };
 
-export default spaces;
+export default Spaces;

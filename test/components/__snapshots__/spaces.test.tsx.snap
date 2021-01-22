@@ -1,0 +1,1221 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<ListSpaces> matches snapshot 1`] = `
+<DocumentFragment>
+  <button
+    class="MuiButtonBase-root MuiButton-root MuiButton-contained"
+    tabindex="0"
+    type="button"
+  >
+    <span
+      class="MuiButton-label"
+    >
+      default
+    </span>
+    <span
+      class="MuiTouchRipple-root"
+    />
+  </button>
+  <button
+    class="MuiButtonBase-root MuiButton-root MuiButton-contained MuiButton-containedPrimary"
+    tabindex="0"
+    type="button"
+  >
+    <span
+      class="MuiButton-label"
+    >
+      Primary
+    </span>
+    <span
+      class="MuiTouchRipple-root"
+    />
+  </button>
+  <button
+    class="MuiButtonBase-root MuiButton-root MuiButton-contained MuiButton-containedSecondary"
+    tabindex="0"
+    type="button"
+  >
+    <span
+      class="MuiButton-label"
+    >
+      Secondary
+    </span>
+    <span
+      class="MuiTouchRipple-root"
+    />
+  </button>
+  <button
+    class="MuiButtonBase-root MuiButton-root MuiButton-contained Mui-disabled Mui-disabled"
+    disabled=""
+    tabindex="-1"
+    type="button"
+  >
+    <span
+      class="MuiButton-label"
+    >
+      Disabled
+    </span>
+  </button>
+  <button
+    class="MuiButtonBase-root MuiButton-root MuiButton-outlined"
+    tabindex="0"
+    type="button"
+  >
+    <span
+      class="MuiButton-label"
+    >
+      default
+    </span>
+    <span
+      class="MuiTouchRipple-root"
+    />
+  </button>
+  <button
+    class="MuiButtonBase-root MuiButton-root MuiButton-outlined MuiButton-outlinedPrimary"
+    tabindex="0"
+    type="button"
+  >
+    <span
+      class="MuiButton-label"
+    >
+      Primary
+    </span>
+    <span
+      class="MuiTouchRipple-root"
+    />
+  </button>
+  <button
+    class="MuiButtonBase-root MuiButton-root MuiButton-outlined MuiButton-outlinedSecondary"
+    tabindex="0"
+    type="button"
+  >
+    <span
+      class="MuiButton-label"
+    >
+      Secondary
+    </span>
+    <span
+      class="MuiTouchRipple-root"
+    />
+  </button>
+  <button
+    class="MuiButtonBase-root MuiButton-root MuiButton-outlined Mui-disabled Mui-disabled"
+    disabled=""
+    tabindex="-1"
+    type="button"
+  >
+    <span
+      class="MuiButton-label"
+    >
+      Disabled
+    </span>
+  </button>
+  <br />
+   
+  <br />
+  <div
+    class="MuiFormControl-root MuiTextField-root"
+  >
+    <label
+      class="MuiFormLabel-root MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated MuiInputLabel-outlined"
+      data-shrink="false"
+      for="filled-basic"
+      id="filled-basic-label"
+    >
+      outlined
+    </label>
+    <div
+      class="MuiInputBase-root MuiOutlinedInput-root MuiInputBase-formControl"
+    >
+      <input
+        aria-invalid="false"
+        class="MuiInputBase-input MuiOutlinedInput-input"
+        id="filled-basic"
+        type="text"
+        value=""
+      />
+      <fieldset
+        aria-hidden="true"
+        class="PrivateNotchedOutline-root-4 MuiOutlinedInput-notchedOutline"
+      >
+        <legend
+          class="PrivateNotchedOutline-legendLabelled-6"
+        >
+          <span>
+            outlined
+          </span>
+        </legend>
+      </fieldset>
+    </div>
+  </div>
+  <br />
+  <div
+    class="MuiGrid-root makeStyles-root-1 MuiGrid-container MuiGrid-spacing-xs-2"
+  >
+    <div
+      class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12"
+    >
+      <div
+        class="MuiGrid-root MuiGrid-container MuiGrid-spacing-xs-2 MuiGrid-justify-xs-center"
+      >
+        <div
+          class="MuiGrid-root MuiGrid-item"
+        >
+          <div
+            class="MuiPaper-root MuiCard-root makeStyles-root-8 MuiPaper-elevation1 MuiPaper-rounded"
+          >
+            <div
+              class="MuiCardHeader-root"
+            >
+              <div
+                class="MuiCardHeader-avatar"
+              >
+                <div
+                  aria-label="OFICINA"
+                  class="MuiAvatar-root MuiAvatar-circle makeStyles-avatar-10 MuiAvatar-colorDefault"
+                >
+                  O
+                </div>
+              </div>
+              <div
+                class="MuiCardHeader-content"
+              >
+                <span
+                  class="MuiTypography-root MuiCardHeader-title MuiTypography-body2 MuiTypography-displayBlock"
+                >
+                  Condesa 1
+                </span>
+                <span
+                  class="MuiTypography-root MuiCardHeader-subheader MuiTypography-body2 MuiTypography-colorTextSecondary MuiTypography-displayBlock"
+                >
+                  OFICINA
+                </span>
+              </div>
+            </div>
+            <button
+              class="MuiButtonBase-root MuiCardActionArea-root"
+              tabindex="0"
+              type="button"
+            >
+              <div
+                class="MuiCardMedia-root makeStyles-media-9"
+                style="background-image: url(/images/NoImage.png);"
+                title="Paella dish"
+              />
+              <div
+                class="MuiCardContent-root"
+              >
+                <p>
+                  CDMX
+                </p>
+              </div>
+              <span
+                class="MuiCardActionArea-focusHighlight"
+              />
+              <span
+                class="MuiTouchRipple-root"
+              />
+            </button>
+            <div
+              class="MuiCardActions-root"
+            >
+              <button
+                aria-label="add to favorites"
+                class="MuiButtonBase-root MuiIconButton-root"
+                tabindex="0"
+                type="button"
+              >
+                <span
+                  class="MuiIconButton-label"
+                >
+                  <svg
+                    aria-hidden="true"
+                    class="MuiSvgIcon-root"
+                    focusable="false"
+                    viewBox="0 0 24 24"
+                  >
+                    <path
+                      d="M12 21.35l-1.45-1.32C5.4 15.36 2 12.28 2 8.5 2 5.42 4.42 3 7.5 3c1.74 0 3.41.81 4.5 2.09C13.09 3.81 14.76 3 16.5 3 19.58 3 22 5.42 22 8.5c0 3.78-3.4 6.86-8.55 11.54L12 21.35z"
+                    />
+                  </svg>
+                </span>
+                <span
+                  class="MuiTouchRipple-root"
+                />
+              </button>
+            </div>
+          </div>
+        </div>
+        <div
+          class="MuiGrid-root MuiGrid-item"
+        >
+          <div
+            class="MuiPaper-root MuiCard-root makeStyles-root-8 MuiPaper-elevation1 MuiPaper-rounded"
+          >
+            <div
+              class="MuiCardHeader-root"
+            >
+              <div
+                class="MuiCardHeader-avatar"
+              >
+                <div
+                  aria-label="OFICINA"
+                  class="MuiAvatar-root MuiAvatar-circle makeStyles-avatar-10 MuiAvatar-colorDefault"
+                >
+                  O
+                </div>
+              </div>
+              <div
+                class="MuiCardHeader-content"
+              >
+                <span
+                  class="MuiTypography-root MuiCardHeader-title MuiTypography-body2 MuiTypography-displayBlock"
+                >
+                  Minerva
+                </span>
+                <span
+                  class="MuiTypography-root MuiCardHeader-subheader MuiTypography-body2 MuiTypography-colorTextSecondary MuiTypography-displayBlock"
+                >
+                  OFICINA
+                </span>
+              </div>
+            </div>
+            <button
+              class="MuiButtonBase-root MuiCardActionArea-root"
+              tabindex="0"
+              type="button"
+            >
+              <div
+                class="MuiCardMedia-root makeStyles-media-9"
+                style="background-image: url(/images/NoImage.png);"
+                title="Paella dish"
+              />
+              <div
+                class="MuiCardContent-root"
+              >
+                <p>
+                  Guadalajara
+                </p>
+              </div>
+              <span
+                class="MuiCardActionArea-focusHighlight"
+              />
+              <span
+                class="MuiTouchRipple-root"
+              />
+            </button>
+            <div
+              class="MuiCardActions-root"
+            >
+              <button
+                aria-label="add to favorites"
+                class="MuiButtonBase-root MuiIconButton-root"
+                tabindex="0"
+                type="button"
+              >
+                <span
+                  class="MuiIconButton-label"
+                >
+                  <svg
+                    aria-hidden="true"
+                    class="MuiSvgIcon-root"
+                    focusable="false"
+                    viewBox="0 0 24 24"
+                  >
+                    <path
+                      d="M12 21.35l-1.45-1.32C5.4 15.36 2 12.28 2 8.5 2 5.42 4.42 3 7.5 3c1.74 0 3.41.81 4.5 2.09C13.09 3.81 14.76 3 16.5 3 19.58 3 22 5.42 22 8.5c0 3.78-3.4 6.86-8.55 11.54L12 21.35z"
+                    />
+                  </svg>
+                </span>
+                <span
+                  class="MuiTouchRipple-root"
+                />
+              </button>
+            </div>
+          </div>
+        </div>
+        <div
+          class="MuiGrid-root MuiGrid-item"
+        >
+          <div
+            class="MuiPaper-root MuiCard-root makeStyles-root-8 MuiPaper-elevation1 MuiPaper-rounded"
+          >
+            <div
+              class="MuiCardHeader-root"
+            >
+              <div
+                class="MuiCardHeader-avatar"
+              >
+                <div
+                  aria-label="COWORKING"
+                  class="MuiAvatar-root MuiAvatar-circle makeStyles-avatar-10 MuiAvatar-colorDefault"
+                >
+                  C
+                </div>
+              </div>
+              <div
+                class="MuiCardHeader-content"
+              >
+                <span
+                  class="MuiTypography-root MuiCardHeader-title MuiTypography-body2 MuiTypography-displayBlock"
+                >
+                  Condesa 2
+                </span>
+                <span
+                  class="MuiTypography-root MuiCardHeader-subheader MuiTypography-body2 MuiTypography-colorTextSecondary MuiTypography-displayBlock"
+                >
+                  COWORKING
+                </span>
+              </div>
+            </div>
+            <button
+              class="MuiButtonBase-root MuiCardActionArea-root"
+              tabindex="0"
+              type="button"
+            >
+              <div
+                class="MuiCardMedia-root makeStyles-media-9"
+                style="background-image: url(/images/NoImage.png);"
+                title="Paella dish"
+              />
+              <div
+                class="MuiCardContent-root"
+              >
+                <p>
+                  CDMX
+                </p>
+              </div>
+              <span
+                class="MuiCardActionArea-focusHighlight"
+              />
+              <span
+                class="MuiTouchRipple-root"
+              />
+            </button>
+            <div
+              class="MuiCardActions-root"
+            >
+              <button
+                aria-label="add to favorites"
+                class="MuiButtonBase-root MuiIconButton-root"
+                tabindex="0"
+                type="button"
+              >
+                <span
+                  class="MuiIconButton-label"
+                >
+                  <svg
+                    aria-hidden="true"
+                    class="MuiSvgIcon-root"
+                    focusable="false"
+                    viewBox="0 0 24 24"
+                  >
+                    <path
+                      d="M12 21.35l-1.45-1.32C5.4 15.36 2 12.28 2 8.5 2 5.42 4.42 3 7.5 3c1.74 0 3.41.81 4.5 2.09C13.09 3.81 14.76 3 16.5 3 19.58 3 22 5.42 22 8.5c0 3.78-3.4 6.86-8.55 11.54L12 21.35z"
+                    />
+                  </svg>
+                </span>
+                <span
+                  class="MuiTouchRipple-root"
+                />
+              </button>
+            </div>
+          </div>
+        </div>
+        <div
+          class="MuiGrid-root MuiGrid-item"
+        >
+          <div
+            class="MuiPaper-root MuiCard-root makeStyles-root-8 MuiPaper-elevation1 MuiPaper-rounded"
+          >
+            <div
+              class="MuiCardHeader-root"
+            >
+              <div
+                class="MuiCardHeader-avatar"
+              >
+                <div
+                  aria-label="OFICINA"
+                  class="MuiAvatar-root MuiAvatar-circle makeStyles-avatar-10 MuiAvatar-colorDefault"
+                >
+                  O
+                </div>
+              </div>
+              <div
+                class="MuiCardHeader-content"
+              >
+                <span
+                  class="MuiTypography-root MuiCardHeader-title MuiTypography-body2 MuiTypography-displayBlock"
+                >
+                  Condesa 1
+                </span>
+                <span
+                  class="MuiTypography-root MuiCardHeader-subheader MuiTypography-body2 MuiTypography-colorTextSecondary MuiTypography-displayBlock"
+                >
+                  OFICINA
+                </span>
+              </div>
+            </div>
+            <button
+              class="MuiButtonBase-root MuiCardActionArea-root"
+              tabindex="0"
+              type="button"
+            >
+              <div
+                class="MuiCardMedia-root makeStyles-media-9"
+                style="background-image: url(/images/NoImage.png);"
+                title="Paella dish"
+              />
+              <div
+                class="MuiCardContent-root"
+              >
+                <p>
+                  CDMX
+                </p>
+              </div>
+              <span
+                class="MuiCardActionArea-focusHighlight"
+              />
+              <span
+                class="MuiTouchRipple-root"
+              />
+            </button>
+            <div
+              class="MuiCardActions-root"
+            >
+              <button
+                aria-label="add to favorites"
+                class="MuiButtonBase-root MuiIconButton-root"
+                tabindex="0"
+                type="button"
+              >
+                <span
+                  class="MuiIconButton-label"
+                >
+                  <svg
+                    aria-hidden="true"
+                    class="MuiSvgIcon-root"
+                    focusable="false"
+                    viewBox="0 0 24 24"
+                  >
+                    <path
+                      d="M12 21.35l-1.45-1.32C5.4 15.36 2 12.28 2 8.5 2 5.42 4.42 3 7.5 3c1.74 0 3.41.81 4.5 2.09C13.09 3.81 14.76 3 16.5 3 19.58 3 22 5.42 22 8.5c0 3.78-3.4 6.86-8.55 11.54L12 21.35z"
+                    />
+                  </svg>
+                </span>
+                <span
+                  class="MuiTouchRipple-root"
+                />
+              </button>
+            </div>
+          </div>
+        </div>
+        <div
+          class="MuiGrid-root MuiGrid-item"
+        >
+          <div
+            class="MuiPaper-root MuiCard-root makeStyles-root-8 MuiPaper-elevation1 MuiPaper-rounded"
+          >
+            <div
+              class="MuiCardHeader-root"
+            >
+              <div
+                class="MuiCardHeader-avatar"
+              >
+                <div
+                  aria-label="OFICINA"
+                  class="MuiAvatar-root MuiAvatar-circle makeStyles-avatar-10 MuiAvatar-colorDefault"
+                >
+                  O
+                </div>
+              </div>
+              <div
+                class="MuiCardHeader-content"
+              >
+                <span
+                  class="MuiTypography-root MuiCardHeader-title MuiTypography-body2 MuiTypography-displayBlock"
+                >
+                  Minerva
+                </span>
+                <span
+                  class="MuiTypography-root MuiCardHeader-subheader MuiTypography-body2 MuiTypography-colorTextSecondary MuiTypography-displayBlock"
+                >
+                  OFICINA
+                </span>
+              </div>
+            </div>
+            <button
+              class="MuiButtonBase-root MuiCardActionArea-root"
+              tabindex="0"
+              type="button"
+            >
+              <div
+                class="MuiCardMedia-root makeStyles-media-9"
+                style="background-image: url(/images/NoImage.png);"
+                title="Paella dish"
+              />
+              <div
+                class="MuiCardContent-root"
+              >
+                <p>
+                  Guadalajara
+                </p>
+              </div>
+              <span
+                class="MuiCardActionArea-focusHighlight"
+              />
+              <span
+                class="MuiTouchRipple-root"
+              />
+            </button>
+            <div
+              class="MuiCardActions-root"
+            >
+              <button
+                aria-label="add to favorites"
+                class="MuiButtonBase-root MuiIconButton-root"
+                tabindex="0"
+                type="button"
+              >
+                <span
+                  class="MuiIconButton-label"
+                >
+                  <svg
+                    aria-hidden="true"
+                    class="MuiSvgIcon-root"
+                    focusable="false"
+                    viewBox="0 0 24 24"
+                  >
+                    <path
+                      d="M12 21.35l-1.45-1.32C5.4 15.36 2 12.28 2 8.5 2 5.42 4.42 3 7.5 3c1.74 0 3.41.81 4.5 2.09C13.09 3.81 14.76 3 16.5 3 19.58 3 22 5.42 22 8.5c0 3.78-3.4 6.86-8.55 11.54L12 21.35z"
+                    />
+                  </svg>
+                </span>
+                <span
+                  class="MuiTouchRipple-root"
+                />
+              </button>
+            </div>
+          </div>
+        </div>
+        <div
+          class="MuiGrid-root MuiGrid-item"
+        >
+          <div
+            class="MuiPaper-root MuiCard-root makeStyles-root-8 MuiPaper-elevation1 MuiPaper-rounded"
+          >
+            <div
+              class="MuiCardHeader-root"
+            >
+              <div
+                class="MuiCardHeader-avatar"
+              >
+                <div
+                  aria-label="COWORKING"
+                  class="MuiAvatar-root MuiAvatar-circle makeStyles-avatar-10 MuiAvatar-colorDefault"
+                >
+                  C
+                </div>
+              </div>
+              <div
+                class="MuiCardHeader-content"
+              >
+                <span
+                  class="MuiTypography-root MuiCardHeader-title MuiTypography-body2 MuiTypography-displayBlock"
+                >
+                  Condesa 2
+                </span>
+                <span
+                  class="MuiTypography-root MuiCardHeader-subheader MuiTypography-body2 MuiTypography-colorTextSecondary MuiTypography-displayBlock"
+                >
+                  COWORKING
+                </span>
+              </div>
+            </div>
+            <button
+              class="MuiButtonBase-root MuiCardActionArea-root"
+              tabindex="0"
+              type="button"
+            >
+              <div
+                class="MuiCardMedia-root makeStyles-media-9"
+                style="background-image: url(/images/NoImage.png);"
+                title="Paella dish"
+              />
+              <div
+                class="MuiCardContent-root"
+              >
+                <p>
+                  CDMX
+                </p>
+              </div>
+              <span
+                class="MuiCardActionArea-focusHighlight"
+              />
+              <span
+                class="MuiTouchRipple-root"
+              />
+            </button>
+            <div
+              class="MuiCardActions-root"
+            >
+              <button
+                aria-label="add to favorites"
+                class="MuiButtonBase-root MuiIconButton-root"
+                tabindex="0"
+                type="button"
+              >
+                <span
+                  class="MuiIconButton-label"
+                >
+                  <svg
+                    aria-hidden="true"
+                    class="MuiSvgIcon-root"
+                    focusable="false"
+                    viewBox="0 0 24 24"
+                  >
+                    <path
+                      d="M12 21.35l-1.45-1.32C5.4 15.36 2 12.28 2 8.5 2 5.42 4.42 3 7.5 3c1.74 0 3.41.81 4.5 2.09C13.09 3.81 14.76 3 16.5 3 19.58 3 22 5.42 22 8.5c0 3.78-3.4 6.86-8.55 11.54L12 21.35z"
+                    />
+                  </svg>
+                </span>
+                <span
+                  class="MuiTouchRipple-root"
+                />
+              </button>
+            </div>
+          </div>
+        </div>
+        <div
+          class="MuiGrid-root MuiGrid-item"
+        >
+          <div
+            class="MuiPaper-root MuiCard-root makeStyles-root-8 MuiPaper-elevation1 MuiPaper-rounded"
+          >
+            <div
+              class="MuiCardHeader-root"
+            >
+              <div
+                class="MuiCardHeader-avatar"
+              >
+                <div
+                  aria-label="OFICINA"
+                  class="MuiAvatar-root MuiAvatar-circle makeStyles-avatar-10 MuiAvatar-colorDefault"
+                >
+                  O
+                </div>
+              </div>
+              <div
+                class="MuiCardHeader-content"
+              >
+                <span
+                  class="MuiTypography-root MuiCardHeader-title MuiTypography-body2 MuiTypography-displayBlock"
+                >
+                  Condesa 1
+                </span>
+                <span
+                  class="MuiTypography-root MuiCardHeader-subheader MuiTypography-body2 MuiTypography-colorTextSecondary MuiTypography-displayBlock"
+                >
+                  OFICINA
+                </span>
+              </div>
+            </div>
+            <button
+              class="MuiButtonBase-root MuiCardActionArea-root"
+              tabindex="0"
+              type="button"
+            >
+              <div
+                class="MuiCardMedia-root makeStyles-media-9"
+                style="background-image: url(/images/NoImage.png);"
+                title="Paella dish"
+              />
+              <div
+                class="MuiCardContent-root"
+              >
+                <p>
+                  CDMX
+                </p>
+              </div>
+              <span
+                class="MuiCardActionArea-focusHighlight"
+              />
+              <span
+                class="MuiTouchRipple-root"
+              />
+            </button>
+            <div
+              class="MuiCardActions-root"
+            >
+              <button
+                aria-label="add to favorites"
+                class="MuiButtonBase-root MuiIconButton-root"
+                tabindex="0"
+                type="button"
+              >
+                <span
+                  class="MuiIconButton-label"
+                >
+                  <svg
+                    aria-hidden="true"
+                    class="MuiSvgIcon-root"
+                    focusable="false"
+                    viewBox="0 0 24 24"
+                  >
+                    <path
+                      d="M12 21.35l-1.45-1.32C5.4 15.36 2 12.28 2 8.5 2 5.42 4.42 3 7.5 3c1.74 0 3.41.81 4.5 2.09C13.09 3.81 14.76 3 16.5 3 19.58 3 22 5.42 22 8.5c0 3.78-3.4 6.86-8.55 11.54L12 21.35z"
+                    />
+                  </svg>
+                </span>
+                <span
+                  class="MuiTouchRipple-root"
+                />
+              </button>
+            </div>
+          </div>
+        </div>
+        <div
+          class="MuiGrid-root MuiGrid-item"
+        >
+          <div
+            class="MuiPaper-root MuiCard-root makeStyles-root-8 MuiPaper-elevation1 MuiPaper-rounded"
+          >
+            <div
+              class="MuiCardHeader-root"
+            >
+              <div
+                class="MuiCardHeader-avatar"
+              >
+                <div
+                  aria-label="OFICINA"
+                  class="MuiAvatar-root MuiAvatar-circle makeStyles-avatar-10 MuiAvatar-colorDefault"
+                >
+                  O
+                </div>
+              </div>
+              <div
+                class="MuiCardHeader-content"
+              >
+                <span
+                  class="MuiTypography-root MuiCardHeader-title MuiTypography-body2 MuiTypography-displayBlock"
+                >
+                  Minerva
+                </span>
+                <span
+                  class="MuiTypography-root MuiCardHeader-subheader MuiTypography-body2 MuiTypography-colorTextSecondary MuiTypography-displayBlock"
+                >
+                  OFICINA
+                </span>
+              </div>
+            </div>
+            <button
+              class="MuiButtonBase-root MuiCardActionArea-root"
+              tabindex="0"
+              type="button"
+            >
+              <div
+                class="MuiCardMedia-root makeStyles-media-9"
+                style="background-image: url(/images/NoImage.png);"
+                title="Paella dish"
+              />
+              <div
+                class="MuiCardContent-root"
+              >
+                <p>
+                  Guadalajara
+                </p>
+              </div>
+              <span
+                class="MuiCardActionArea-focusHighlight"
+              />
+              <span
+                class="MuiTouchRipple-root"
+              />
+            </button>
+            <div
+              class="MuiCardActions-root"
+            >
+              <button
+                aria-label="add to favorites"
+                class="MuiButtonBase-root MuiIconButton-root"
+                tabindex="0"
+                type="button"
+              >
+                <span
+                  class="MuiIconButton-label"
+                >
+                  <svg
+                    aria-hidden="true"
+                    class="MuiSvgIcon-root"
+                    focusable="false"
+                    viewBox="0 0 24 24"
+                  >
+                    <path
+                      d="M12 21.35l-1.45-1.32C5.4 15.36 2 12.28 2 8.5 2 5.42 4.42 3 7.5 3c1.74 0 3.41.81 4.5 2.09C13.09 3.81 14.76 3 16.5 3 19.58 3 22 5.42 22 8.5c0 3.78-3.4 6.86-8.55 11.54L12 21.35z"
+                    />
+                  </svg>
+                </span>
+                <span
+                  class="MuiTouchRipple-root"
+                />
+              </button>
+            </div>
+          </div>
+        </div>
+        <div
+          class="MuiGrid-root MuiGrid-item"
+        >
+          <div
+            class="MuiPaper-root MuiCard-root makeStyles-root-8 MuiPaper-elevation1 MuiPaper-rounded"
+          >
+            <div
+              class="MuiCardHeader-root"
+            >
+              <div
+                class="MuiCardHeader-avatar"
+              >
+                <div
+                  aria-label="COWORKING"
+                  class="MuiAvatar-root MuiAvatar-circle makeStyles-avatar-10 MuiAvatar-colorDefault"
+                >
+                  C
+                </div>
+              </div>
+              <div
+                class="MuiCardHeader-content"
+              >
+                <span
+                  class="MuiTypography-root MuiCardHeader-title MuiTypography-body2 MuiTypography-displayBlock"
+                >
+                  Condesa 2
+                </span>
+                <span
+                  class="MuiTypography-root MuiCardHeader-subheader MuiTypography-body2 MuiTypography-colorTextSecondary MuiTypography-displayBlock"
+                >
+                  COWORKING
+                </span>
+              </div>
+            </div>
+            <button
+              class="MuiButtonBase-root MuiCardActionArea-root"
+              tabindex="0"
+              type="button"
+            >
+              <div
+                class="MuiCardMedia-root makeStyles-media-9"
+                style="background-image: url(/images/NoImage.png);"
+                title="Paella dish"
+              />
+              <div
+                class="MuiCardContent-root"
+              >
+                <p>
+                  CDMX
+                </p>
+              </div>
+              <span
+                class="MuiCardActionArea-focusHighlight"
+              />
+              <span
+                class="MuiTouchRipple-root"
+              />
+            </button>
+            <div
+              class="MuiCardActions-root"
+            >
+              <button
+                aria-label="add to favorites"
+                class="MuiButtonBase-root MuiIconButton-root"
+                tabindex="0"
+                type="button"
+              >
+                <span
+                  class="MuiIconButton-label"
+                >
+                  <svg
+                    aria-hidden="true"
+                    class="MuiSvgIcon-root"
+                    focusable="false"
+                    viewBox="0 0 24 24"
+                  >
+                    <path
+                      d="M12 21.35l-1.45-1.32C5.4 15.36 2 12.28 2 8.5 2 5.42 4.42 3 7.5 3c1.74 0 3.41.81 4.5 2.09C13.09 3.81 14.76 3 16.5 3 19.58 3 22 5.42 22 8.5c0 3.78-3.4 6.86-8.55 11.54L12 21.35z"
+                    />
+                  </svg>
+                </span>
+                <span
+                  class="MuiTouchRipple-root"
+                />
+              </button>
+            </div>
+          </div>
+        </div>
+        <div
+          class="MuiGrid-root MuiGrid-item"
+        >
+          <div
+            class="MuiPaper-root MuiCard-root makeStyles-root-8 MuiPaper-elevation1 MuiPaper-rounded"
+          >
+            <div
+              class="MuiCardHeader-root"
+            >
+              <div
+                class="MuiCardHeader-avatar"
+              >
+                <div
+                  aria-label="OFICINA"
+                  class="MuiAvatar-root MuiAvatar-circle makeStyles-avatar-10 MuiAvatar-colorDefault"
+                >
+                  O
+                </div>
+              </div>
+              <div
+                class="MuiCardHeader-content"
+              >
+                <span
+                  class="MuiTypography-root MuiCardHeader-title MuiTypography-body2 MuiTypography-displayBlock"
+                >
+                  Condesa 1
+                </span>
+                <span
+                  class="MuiTypography-root MuiCardHeader-subheader MuiTypography-body2 MuiTypography-colorTextSecondary MuiTypography-displayBlock"
+                >
+                  OFICINA
+                </span>
+              </div>
+            </div>
+            <button
+              class="MuiButtonBase-root MuiCardActionArea-root"
+              tabindex="0"
+              type="button"
+            >
+              <div
+                class="MuiCardMedia-root makeStyles-media-9"
+                style="background-image: url(/images/NoImage.png);"
+                title="Paella dish"
+              />
+              <div
+                class="MuiCardContent-root"
+              >
+                <p>
+                  CDMX
+                </p>
+              </div>
+              <span
+                class="MuiCardActionArea-focusHighlight"
+              />
+              <span
+                class="MuiTouchRipple-root"
+              />
+            </button>
+            <div
+              class="MuiCardActions-root"
+            >
+              <button
+                aria-label="add to favorites"
+                class="MuiButtonBase-root MuiIconButton-root"
+                tabindex="0"
+                type="button"
+              >
+                <span
+                  class="MuiIconButton-label"
+                >
+                  <svg
+                    aria-hidden="true"
+                    class="MuiSvgIcon-root"
+                    focusable="false"
+                    viewBox="0 0 24 24"
+                  >
+                    <path
+                      d="M12 21.35l-1.45-1.32C5.4 15.36 2 12.28 2 8.5 2 5.42 4.42 3 7.5 3c1.74 0 3.41.81 4.5 2.09C13.09 3.81 14.76 3 16.5 3 19.58 3 22 5.42 22 8.5c0 3.78-3.4 6.86-8.55 11.54L12 21.35z"
+                    />
+                  </svg>
+                </span>
+                <span
+                  class="MuiTouchRipple-root"
+                />
+              </button>
+            </div>
+          </div>
+        </div>
+        <div
+          class="MuiGrid-root MuiGrid-item"
+        >
+          <div
+            class="MuiPaper-root MuiCard-root makeStyles-root-8 MuiPaper-elevation1 MuiPaper-rounded"
+          >
+            <div
+              class="MuiCardHeader-root"
+            >
+              <div
+                class="MuiCardHeader-avatar"
+              >
+                <div
+                  aria-label="OFICINA"
+                  class="MuiAvatar-root MuiAvatar-circle makeStyles-avatar-10 MuiAvatar-colorDefault"
+                >
+                  O
+                </div>
+              </div>
+              <div
+                class="MuiCardHeader-content"
+              >
+                <span
+                  class="MuiTypography-root MuiCardHeader-title MuiTypography-body2 MuiTypography-displayBlock"
+                >
+                  Minerva
+                </span>
+                <span
+                  class="MuiTypography-root MuiCardHeader-subheader MuiTypography-body2 MuiTypography-colorTextSecondary MuiTypography-displayBlock"
+                >
+                  OFICINA
+                </span>
+              </div>
+            </div>
+            <button
+              class="MuiButtonBase-root MuiCardActionArea-root"
+              tabindex="0"
+              type="button"
+            >
+              <div
+                class="MuiCardMedia-root makeStyles-media-9"
+                style="background-image: url(/images/NoImage.png);"
+                title="Paella dish"
+              />
+              <div
+                class="MuiCardContent-root"
+              >
+                <p>
+                  Guadalajara
+                </p>
+              </div>
+              <span
+                class="MuiCardActionArea-focusHighlight"
+              />
+              <span
+                class="MuiTouchRipple-root"
+              />
+            </button>
+            <div
+              class="MuiCardActions-root"
+            >
+              <button
+                aria-label="add to favorites"
+                class="MuiButtonBase-root MuiIconButton-root"
+                tabindex="0"
+                type="button"
+              >
+                <span
+                  class="MuiIconButton-label"
+                >
+                  <svg
+                    aria-hidden="true"
+                    class="MuiSvgIcon-root"
+                    focusable="false"
+                    viewBox="0 0 24 24"
+                  >
+                    <path
+                      d="M12 21.35l-1.45-1.32C5.4 15.36 2 12.28 2 8.5 2 5.42 4.42 3 7.5 3c1.74 0 3.41.81 4.5 2.09C13.09 3.81 14.76 3 16.5 3 19.58 3 22 5.42 22 8.5c0 3.78-3.4 6.86-8.55 11.54L12 21.35z"
+                    />
+                  </svg>
+                </span>
+                <span
+                  class="MuiTouchRipple-root"
+                />
+              </button>
+            </div>
+          </div>
+        </div>
+        <div
+          class="MuiGrid-root MuiGrid-item"
+        >
+          <div
+            class="MuiPaper-root MuiCard-root makeStyles-root-8 MuiPaper-elevation1 MuiPaper-rounded"
+          >
+            <div
+              class="MuiCardHeader-root"
+            >
+              <div
+                class="MuiCardHeader-avatar"
+              >
+                <div
+                  aria-label="COWORKING"
+                  class="MuiAvatar-root MuiAvatar-circle makeStyles-avatar-10 MuiAvatar-colorDefault"
+                >
+                  C
+                </div>
+              </div>
+              <div
+                class="MuiCardHeader-content"
+              >
+                <span
+                  class="MuiTypography-root MuiCardHeader-title MuiTypography-body2 MuiTypography-displayBlock"
+                >
+                  Condesa 2
+                </span>
+                <span
+                  class="MuiTypography-root MuiCardHeader-subheader MuiTypography-body2 MuiTypography-colorTextSecondary MuiTypography-displayBlock"
+                >
+                  COWORKING
+                </span>
+              </div>
+            </div>
+            <button
+              class="MuiButtonBase-root MuiCardActionArea-root"
+              tabindex="0"
+              type="button"
+            >
+              <div
+                class="MuiCardMedia-root makeStyles-media-9"
+                style="background-image: url(/images/NoImage.png);"
+                title="Paella dish"
+              />
+              <div
+                class="MuiCardContent-root"
+              >
+                <p>
+                  CDMX
+                </p>
+              </div>
+              <span
+                class="MuiCardActionArea-focusHighlight"
+              />
+              <span
+                class="MuiTouchRipple-root"
+              />
+            </button>
+            <div
+              class="MuiCardActions-root"
+            >
+              <button
+                aria-label="add to favorites"
+                class="MuiButtonBase-root MuiIconButton-root"
+                tabindex="0"
+                type="button"
+              >
+                <span
+                  class="MuiIconButton-label"
+                >
+                  <svg
+                    aria-hidden="true"
+                    class="MuiSvgIcon-root"
+                    focusable="false"
+                    viewBox="0 0 24 24"
+                  >
+                    <path
+                      d="M12 21.35l-1.45-1.32C5.4 15.36 2 12.28 2 8.5 2 5.42 4.42 3 7.5 3c1.74 0 3.41.81 4.5 2.09C13.09 3.81 14.76 3 16.5 3 19.58 3 22 5.42 22 8.5c0 3.78-3.4 6.86-8.55 11.54L12 21.35z"
+                    />
+                  </svg>
+                </span>
+                <span
+                  class="MuiTouchRipple-root"
+                />
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</DocumentFragment>
+`;

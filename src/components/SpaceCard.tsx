@@ -1,9 +1,9 @@
 import { Avatar, Card, CardActionArea, CardActions, CardContent, CardHeader, CardMedia, IconButton, makeStyles } from '@material-ui/core';
 import { red } from '@material-ui/core/colors';
 import FavoriteIcon from '@material-ui/icons/Favorite';
-
 import React from 'react';
 import { Space } from '../@types';
+
 interface SpaceCardProps {
     space: Space;
 }
